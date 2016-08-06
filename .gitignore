@@ -1,0 +1,9 @@
+# composer stuff
+composer.lock
+vendor/
+
+# zend studio stuff
+.buildpath
+.project
+.settings/
+

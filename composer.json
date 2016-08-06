@@ -1,0 +1,25 @@
+{
+  "name" : "nia/collection-queue-memcached",
+  "description" : "Implementation of the nia queue component using memcached.",
+  "require" : {
+    "php" : ">=7.0.0",
+    "ext-memcached" : "*",
+    "nia/collection-queue" : "*"
+  },
+  "license" : "MIT",
+  "keywords" : [ "nia", "queue", "stack", "fifo", "lifo", "memcache", "memcached", "race", "condition", "worker", "batch", "job" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Nia\\Collection\\Queue\\Memcached\\" : "sources/",
+      "Test\\Nia\\Collection\\Queue\\Memcached\\" : "tests/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "http://www.nat-software.de",
+  "authors" : [ {
+    "name" : "Patrick Ullmann",
+    "email" : "patrick.ullmann@nat-software.de",
+    "role" : "lead"
+  } ]
+}
